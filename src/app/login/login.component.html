@@ -1,0 +1,22 @@
+<h1>LOGIN Page</h1>
+<form [formGroup]="loginForm" (submit)="login()">
+
+
+
+<div class="form-control">
+    <label for="email">Email</label>
+    <input formControlName="email"
+    id="email"/>
+
+</div>
+
+<div class="form-control">
+    <label for="password">Password</label>
+    <input formControlName="password"
+    id="password" type="password"/>
+
+</div>
+
+
+<button type="submit">Login </button>
+</form>
